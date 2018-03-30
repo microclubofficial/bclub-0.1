@@ -1,5 +1,5 @@
 # bclub-1.0beta
-bclub-1.0beta-dev
+bclub-1.0beta
 
 ## Build Setup
 
