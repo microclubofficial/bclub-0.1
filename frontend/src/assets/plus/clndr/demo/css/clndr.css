@@ -1,0 +1,86 @@
+#full-clndr {
+  width: 100%;
+  max-width: 100%;
+  margin: 0px auto;
+  /* background-color: #CCC; */
+}
+#full-clndr .clndr-controls {
+  color: #999;
+  text-align: center;
+  /* background-color: #fff; */
+  /* border: 1px solid #6A6A6A; */
+  /* æ—¥åŽ†æ ‡é¢˜æ ·å¼ */
+}
+#full-clndr .clndr-controls .clndr-previous-button {
+  float: left;
+  text-align: left;
+  margin-left: 50px;
+}
+#full-clndr .clndr-controls .clndr-next-button {
+  float: right;
+  text-align: right;
+  margin-right: 50px;
+}
+#full-clndr .clndr-controls .clndr-previous-button,
+#full-clndr .clndr-controls .clndr-next-button {
+  width: 12px;
+  cursor: pointer;
+}
+#full-clndr .clndr-controls .clndr-previous-button i,
+#full-clndr .clndr-controls .clndr-next-button i{font-size: 14px;}
+#full-clndr .clndr-controls .clndr-previous-button:hover,
+#full-clndr .clndr-controls .clndr-next-button:hover {
+  opacity: 0.5;
+}
+#full-clndr .clndr-grid {
+  width: 100%;
+}
+#full-clndr .clndr-grid .days-of-the-week {
+  width: 100%;
+  background-color: #dadada;
+  clear: both;
+}
+#full-clndr .clndr-grid .days-of-the-week .header-day {
+  width: 14.28%;
+  padding: 0px;
+  margin:0px;
+  text-align: center;
+  color: #999;
+  display: inline-block;    /* æ—¥æœŸå¤´æ ·å¼ */
+}
+#full-clndr .clndr-grid .days {
+  width: 100%;
+}
+#full-clndr .clndr-grid .days .day,
+#full-clndr .clndr-grid .days .empty {
+  width: 14.28%;
+  height: 30px;
+  text-align: center;
+  color: #000;
+  background-color: #efefef;
+  display: inline-block;
+  /* æ—¥æœŸæ ·å¼ */
+}
+#full-clndr .clndr-grid .days .day .day-number,
+#full-clndr .clndr-grid .days .empty .day-number{padding:5px; border-radius:24px; width:24px; height:24px; line-height:15px; display:inline-block;}
+#full-clndr .clndr-grid .days .day.event .day-number,
+#full-clndr .clndr-grid .days .empty.event .day-number {
+  background-color: #ffbf41; cursor:pointer;
+}
+#full-clndr .clndr-grid .days .day.adjacent-month .day-number,
+#full-clndr .clndr-grid .days .empty.adjacent-month .day-number {
+  opacity: 0.3;
+}
+#full-clndr .clndr-grid .days .today {
+  /* background-color: #AAA; */
+}
+#full-clndr .clndr-grid .days .today .day-number{background-color: #2d9eff;color: #fff;}
+#full-clndr .clndr-grid .days .past:hover  .day-number{
+    color:#999;
+}
+#full-clndr .clndr-grid .days .today:hover .day-number{
+    background-color: #43aaf8
+}
+.focusIn .day-number{
+    background-color: #ccc !important; cursor:pointer;
+}
